@@ -1,0 +1,30 @@
+body 
+{
+    background: lightgray;
+    margin: 0;
+}
+
+#container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#container button {
+  display: block;
+  margin: 5px auto;
+}
+
+.square 
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+}
+
+.colored {
+  background-color: black;
+}
